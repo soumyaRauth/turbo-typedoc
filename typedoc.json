@@ -1,0 +1,6 @@
+{
+  // Comments are supported, like tsconfig.json
+  //   "entryPoints": ["src/app/page.tsx"],
+  "out": "Documen>>>>>>>>>>>////",
+  "excludeNotDocumented": false
+}
