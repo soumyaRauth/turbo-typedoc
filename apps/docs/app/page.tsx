@@ -5,7 +5,7 @@ import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
 import { Button } from "@repo/ui/button";
 import { useEffect } from "react";
-
+import { add } from "@sdrauth/math-util";
 /**
  *
  * @param param0
@@ -83,7 +83,7 @@ export default function Page(): JSX.Element {
       <div className={styles.description}>
         <p>
           examples/basic&nbsp;
-          <Code className={styles.code}>docs</Code>
+          <Code className={styles.code}>{add(100, 300)}</Code>
         </p>
         <div>
           <a

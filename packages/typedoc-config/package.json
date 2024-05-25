@@ -1,5 +1,5 @@
 {
-  "name": "@sdr/typedoc-config",
+  "name": "@sdrauth/typedoc-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

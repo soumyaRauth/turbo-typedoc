@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@sdrauth/math-util':
+        specifier: ^3.0.0
+        version: 3.0.0
       '@zamiell/typedoc-plugin-not-exported':
         specifier: ^0.2.0
         version: 0.2.0(typedoc@0.25.13(typescript@5.4.5))
@@ -45,6 +48,9 @@ importers:
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      '@sdrauth/math-util':
+        specifier: ^3.0.0
+        version: 3.0.0
       next:
         specifier: ^14.1.1
         version: 14.1.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -274,7 +280,11 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  packages/typedoc-config: {}
+  packages/typedoc-config:
+    dependencies:
+      '@sdrauth/math-util':
+        specifier: ^3.0.0
+        version: 3.0.0
 
   packages/typescript-config: {}
 
@@ -2693,6 +2703,9 @@ packages:
 
   '@rushstack/ts-command-line@4.21.1':
     resolution: {integrity: sha512-D4sNIzGqgPRPSJ3UirnpMmxlVzs+x7vL+hwC0b73CE0aflFoU87P/93Fm2QJFGYM099ErM4Usxa1JR4eICIiKw==}
+
+  '@sdrauth/math-util@3.0.0':
+    resolution: {integrity: sha512-96eyoD78/3ce5n1PF2tTePiJxAsY8Jc2huC6GvYvOo1F/U8GcD5ZFqvPIkxPTZy5AMrRco9PMIU6UaTEea4AeA==}
 
   '@segment/analytics-core@1.6.0':
     resolution: {integrity: sha512-bn9X++IScUfpT7aJGjKU/yJAu/Ko2sYD6HsKA70Z2560E89x30pqgqboVKY8kootvQnT4UKCJiUr5NDMgjmWdQ==}
@@ -12778,6 +12791,8 @@ snapshots:
       string-argv: 0.3.2
     transitivePeerDependencies:
       - '@types/node'
+
+  '@sdrauth/math-util@3.0.0': {}
 
   '@segment/analytics-core@1.6.0':
     dependencies:

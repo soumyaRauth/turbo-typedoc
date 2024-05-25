@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { add } from "@sdrauth/math-util";
 
 interface Props {
   count: number;
@@ -34,7 +35,9 @@ const MyComponent: React.FC<Props> = ({ count }) => {
 
   return (
     <div>
-      <p>Count: {count}</p>
+      <p>
+        Count: {count} Add: {add(10, 20)}
+      </p>
     </div>
   );
 };

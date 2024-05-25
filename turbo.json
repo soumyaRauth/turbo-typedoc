@@ -14,7 +14,7 @@
       "persistent": true
     },
     "document": {
-      "cache": false,
+      "cache": true,
       "persistent": true
     },
     "format": {
