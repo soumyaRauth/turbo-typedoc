@@ -14,7 +14,7 @@ Create a typedoc.json file in the root of your application and add the follwoing
 
 ```
 {
-  "extends": ["@repo/typedoc-config/base.json"],
+  "extends": ["@sdrauth/typedoc-config/base.json"],
   "out": "Documentation_web" // name of your documentation directory. this could be any name you would like
 }
 
