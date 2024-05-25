@@ -31,4 +31,6 @@ if you are using turbo monorepo, add a new command `document` command.
 
 Thats it!
 
-run the dommand `turbo document` from the root of your workspace and see the documentation generated inside your application. Thanks! happy coding!
+run the Command `turbo document` from the root of your workspace and see the documentation generated inside your application. Thanks! happy coding!
+
+contributer Name: sdr Profile: [sdrauth](https://www.npmjs.com/~sdrauth)
