@@ -51,6 +51,10 @@ const LINKS = [
   },
 ];
 
+/**
+ *
+ * @returns No one knows whether it will work or not
+ */
 export default function Page(): JSX.Element {
   return (
     <main className={styles.main}>

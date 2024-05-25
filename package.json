@@ -4,19 +4,26 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "document": "typedoc --entryPointStrategy expand ./apps ./packages",
+    "document": "typedoc --entryPointStrategy  expand ./apps ./packages",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@types/node": "^20.12.12",
     "prettier": "^3.2.5",
     "turbo": "latest",
-    "typedoc": "^0.25.13"
+    "typedoc": "^0.25.13",
+    "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@zamiell/typedoc-plugin-not-exported": "^0.2.0",
+    "typedoc-material-theme": "^1.0.2",
+    "typedoc-plugin-missing-exports": "^2.2.0"
   }
 }

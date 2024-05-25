@@ -1,30 +1,17 @@
+"use client";
 import Image from "next/image";
 import { Card } from "@repo/ui/card";
 import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
 import { Button } from "@repo/ui/button";
+import { useEffect } from "react";
 
 /**
- * A non-exported function to multiply two numbers.
- * @param a - The first number.
- * @param b - The second number.
- * @returns The product of the two numbers.
- */
-function multiply(a: number, b: number): number {
-  return a * b;
-}
-
-/**
- * Raw handler to handle approving assets
  *
+ * @param param0
+ * @returns
+ * @notExported
  */
-const godZilla = () => {
-  return "this is working";
-};
-
-//calling godzilla
-godZilla();
-
 function Gradient({
   conic,
   className,
@@ -72,7 +59,25 @@ const LINKS = [
   },
 ];
 
+/**
+ * MyComponent is a simple React component that demonstrates the use of the useEffect hook.
+ *
+ * @component
+ * @example
+ * const count = 5;
+ * return <MyComponent count={count} />;
+ */
+
 export default function Page(): JSX.Element {
+  /**
+   * useEffect hook that logs the count whenever it changes.
+   *
+   * @param {number} count - The count value that is being watched.
+   * @returns {void}
+   */
+  useEffect(() => {
+    console.log("Hello");
+  }, []);
   return (
     <main className={styles.main}>
       <div className={styles.description}>

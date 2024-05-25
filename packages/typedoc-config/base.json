@@ -1,0 +1,10 @@
+{
+  "entryPoints": ["./apps", "./packages", "./app", "./src"],
+  "entryPointStrategy": "expand",
+  "exclude": ["**/models/**"],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "excludeNotDocumented": true,
+  "plugin": ["typedoc-plugin-missing-exports"]
+}

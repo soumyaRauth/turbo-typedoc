@@ -1,6 +1,11 @@
 {
-  // Comments are supported, like tsconfig.json
-  //   "entryPoints": ["src/app/page.tsx"],
-  "out": "Documen>>>>>>>>>>>////",
-  "excludeNotDocumented": false
+  "out": "DocumentCreator",
+  "entryPoints": ["./apps", "./packages"],
+  "entryPointStrategy": "expand",
+  "exclude": ["**/models/**"],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "excludeNotDocumented": true,
+  "plugin": ["typedoc-material-theme", "typedoc-plugin-missing-exports"]
 }
