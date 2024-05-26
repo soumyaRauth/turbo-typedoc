@@ -3,6 +3,7 @@
   "entryPointStrategy": "expand",
   "exclude": ["**/models/**"],
   "excludePrivate": true,
+  "out":"docs",
   "excludeProtected": true,
   "excludeExternals": true,
   "excludeNotDocumented": true,

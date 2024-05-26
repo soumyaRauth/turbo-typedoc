@@ -1,4 +1,3 @@
 {
-  "extends": ["@repo/typedoc-config/base.json"],
-  "out": "Documentation_web"
+  "extends": ["@sdrauth/typedoc-config/base.json"]
 }

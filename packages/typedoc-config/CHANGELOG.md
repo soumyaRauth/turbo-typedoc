@@ -1,4 +1,4 @@
-# @repo/typedoc-config
+# @sdrauth/typedoc-config
 
 ## 1.0.0
 
