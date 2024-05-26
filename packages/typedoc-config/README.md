@@ -1,5 +1,7 @@
 ## Getting Started
 
+## Install typedoc
+Follow this document to install [typedoc](https://typedoc.org/guides/installation/)
 ### Using this package
 
 First, find the package name inside package.json name field:

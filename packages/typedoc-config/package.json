@@ -1,6 +1,6 @@
 {
   "name": "@sdrauth/typedoc-config",
-  "version": "1.0.0",
+  "version": "7.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@sdrauth/math-util": "^3.0.0"
-  }
+  "dependencies": {}
 }

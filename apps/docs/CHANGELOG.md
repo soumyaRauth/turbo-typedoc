@@ -1,17 +1,4 @@
-# web
-
-## 1.0.5
-
-### Patch Changes
-
-- Updated dependencies
-- Updated dependencies
-- Updated dependencies
-- Updated dependencies
-- Updated dependencies
-- Updated dependencies
-  - @sdrauth/typedoc-config@7.0.0
-  - medusa-starter-default@0.0.6
+# docs
 
 ## 1.0.4
 
@@ -23,8 +10,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @sdrauth/typedoc-config@6.0.0
-  - medusa-starter-default@0.0.5
+  - @sdrauth/typedoc-config@7.0.0
 
 ## 1.0.3
 
@@ -36,8 +22,7 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @sdrauth/typedoc-config@5.0.0
-  - medusa-starter-default@0.0.4
+  - @sdrauth/typedoc-config@6.0.0
 
 ## 1.0.2
 
@@ -49,13 +34,16 @@
 - Updated dependencies
 - Updated dependencies
 - Updated dependencies
-  - @sdrauth/typedoc-config@4.0.0
-  - medusa-starter-default@0.0.3
+  - @sdrauth/typedoc-config@5.0.0
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies
-  - @sdrauth/typedoc-config@1.0.0
-  - medusa-starter-default@0.0.2
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @sdrauth/typedoc-config@4.0.0
