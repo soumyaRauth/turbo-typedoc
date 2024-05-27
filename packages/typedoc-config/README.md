@@ -4,15 +4,8 @@
 Follow this document to install [typedoc](https://typedoc.org/guides/installation/)
 ### Using this package
 
-First, find the package name inside package.json name field:
 
-Secondly, add this package in your application's package.json and install it with the installation command of your package manager
-
-```bash example
-pnpm install
-```
-
-Create a typedoc.json file in the root of your application and add the follwoing lines
+Create a typedoc.json file in the root of your application and add the followoing lines. By default typedoc generates documentation inside docs folder. In case you want the name to be something else then you add the `out: "Name_of_Your_Folder"`
 
 ```
 {
@@ -29,7 +22,7 @@ add alias command in the application package.json
 
 ```
 
-if you are using turbo monorepo, add a new command `document` command.
+if you are using turbo monorepo, add a new command `document` command in turbo.json.
 
 Thats it!
 

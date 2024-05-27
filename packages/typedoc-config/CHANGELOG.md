@@ -1,5 +1,24 @@
 # @sdrauth/typedoc-config
 
+## 9.0.0
+
+### Major Changes
+
+- First major release!
+- Major release with removal of dependencies
+- another major release with documentation update
+- Major release with typedoc installation guide
+- Documentation revamp Major release
+
+### Minor Changes
+
+- minor changes versioning
+
+### Patch Changes
+
+- patch released with documentation update
+- this is a patch release with documentation update
+
 ## 8.0.0
 
 ### Major Changes
