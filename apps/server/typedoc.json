@@ -1,0 +1,4 @@
+{
+  "extends": ["@sdrauth/typedoc-config/base.json"],
+  "out": "Documentation" // name of your documentation directory. this could be any name you would like
+}
