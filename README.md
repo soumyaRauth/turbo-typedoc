@@ -1,13 +1,13 @@
-# Turborepo starter
+# Ecommerce 
 
-This is an official starter Turborepo.
+This is the official boilerplate for ecommerce web app
 
 ## Using this example
 
 Run the following command:
 
 ```sh
-npx create-turbo@latest
+pnpm install
 ```
 
 ## What's inside?
