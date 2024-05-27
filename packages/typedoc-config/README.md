@@ -1,11 +1,14 @@
 ## Getting Started
 
 ## Install typedoc
-Follow this document to install [typedoc](https://typedoc.org/guides/installation/)
+
+Follow this document to install [typedoc](https://typedoc.org/guides/installation/).
+
+Run `pnpm i -g typedoc-plugin-missing-exports`
+
 ### Using this package
 
-
-Create a typedoc.json file in the root of your application and add the followoing lines. By default typedoc generates documentation inside docs folder. In case you want the name to be something else then you add the `out: "Name_of_Your_Folder"`
+Create a typedoc.json file in the root of your application and add the followoing lines. By default typedoc generates documentation inside docs folder. In case you want the name to be something different then you add the `out: "Name_of_Your_Folder"`
 
 ```
 {
