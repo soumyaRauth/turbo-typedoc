@@ -15,8 +15,7 @@
     "prettier": "^3.2.5",
     "turbo": "latest",
     "typedoc": "^0.25.13",
-    "typescript": "^5.4.5",
-    "nx": "19.1.0"
+    "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
