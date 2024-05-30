@@ -39,6 +39,8 @@ const MONGO_DB_NAME = process.env.MONGO_DB_NAME || 'your-db-name';
 
 const mongooseConnection = async () => {
   try {
+    console.log("LOGGING HELLO >>>>>>>>>>>>>>>> FROM PACKAGE >>>>>>>>>>>>>>>>..");
+    console.log(`${MONGO_URL}:${MONGO_PORT}/${MONGO_DB_NAME}`);
     await mongoose.connect(`${MONGO_URL}:${MONGO_PORT}/${MONGO_DB_NAME}`, {
       useUnifiedTopology: true,
     });
