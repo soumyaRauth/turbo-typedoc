@@ -31,23 +31,26 @@
  *
  * If the environment variables are not set, the default values will be used.
  */
-import mongoose from 'mongoose';
+const mongoose = require("mongoose");
 
-const MONGO_URL = process.env.MONGO_URL || 'mongodb://localhost:27017';
+const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017";
 const MONGO_PORT = process.env.MONGO_PORT || 27017;
-const MONGO_DB_NAME = process.env.MONGO_DB_NAME || 'your-db-name';
+const MONGO_DB_NAME = process.env.MONGO_DB_NAME || "test-mongo-db";
 
-const mongooseConnection = async () => {
+const Connection = async () => {
   try {
-    console.log("LOGGING HELLO >>>>>>>>>>>>>>>> FROM PACKAGE >>>>>>>>>>>>>>>>..");
-    console.log(`${MONGO_URL}:${MONGO_PORT}/${MONGO_DB_NAME}`);
     await mongoose.connect(`${MONGO_URL}:${MONGO_PORT}/${MONGO_DB_NAME}`, {
       useUnifiedTopology: true,
     });
-    console.log('MongoDB connected >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..');
+    console.log("\x1b[42m%s\x1b[0m", "MONGO CONNECTED SUCCESSFULLY!");
+    console.log(`${MONGO_URL}:${MONGO_PORT}/${MONGO_DB_NAME}`);
   } catch (err) {
-    console.error('MongoDB connection error >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>:', err);
+    console.log(
+      "\x1b[41m%s\x1b[0m",
+      "FAILED TO ESTABLISH MONGO CONNECTION!",
+      err
+    );
   }
 };
 
-export default mongooseConnection;
+module.exports = { Connection };
