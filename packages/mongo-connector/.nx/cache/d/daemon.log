@@ -1,0 +1,138 @@
+[NX Daemon Server] - 2024-06-01T08:44:33.594Z - Started listening on: /var/folders/4w/8f5js3k970v8ws4d9q_73xg40000gn/T/17060f2879489b10a25e/d.sock
+[NX Daemon Server] - 2024-06-01T08:44:33.595Z - [WATCHER]: Subscribed to changes within: /Users/sdr/Development/ecommerce/turbo-typedoc/packages/mongo-connector (native)
+[NX Daemon Server] - 2024-06-01T08:44:33.596Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-01T08:44:33.596Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-01T08:44:33.597Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-01T08:44:33.598Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-01T08:44:33.602Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T08:44:33.602Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T08:44:33.602Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T08:44:33.615Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-01T08:44:33.615Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-01T08:44:33.615Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 17. Response time: 0.
+[NX Daemon Server] - 2024-06-01T08:44:33.615Z - Time taken for 'total for creating and serializing project graph' 17.19895800005179ms
+[NX Daemon Server] - 2024-06-01T08:44:33.616Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-01T08:44:33.657Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-06-01T08:44:33.760Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T08:44:33.760Z - [REQUEST]: .nx/cache/d/server-process.json
+[NX Daemon Server] - 2024-06-01T08:44:33.760Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T08:44:33.763Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-06-01T08:44:33.763Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-06-01T08:44:33.763Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-01T08:44:33.763Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.4583749999292195ms
+[NX Daemon Server] - 2024-06-01T08:45:19.800Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-01T08:45:19.807Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-01T09:02:25.183Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-06-01T09:02:25.183Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:02:25.389Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:02:25.389Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-06-01T09:02:25.389Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:02:25.394Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.779416000004858ms
+[NX Daemon Server] - 2024-06-01T09:02:31.381Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-06-01T09:02:31.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:02:31.783Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:02:31.783Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-06-01T09:02:31.783Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:02:31.789Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5264999996870756ms
+[NX Daemon Server] - 2024-06-01T09:02:41.402Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-06-01T09:02:41.403Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:02:42.205Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:02:42.205Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-06-01T09:02:42.205Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:02:42.212Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.7812089999206364ms
+[NX Daemon Server] - 2024-06-01T09:02:56.822Z - [WATCHER]: .changeset/pretty-yaks-repeat.md was created or restored
+[NX Daemon Server] - 2024-06-01T09:02:56.822Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:02:56.925Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:02:56.925Z - [REQUEST]: .changeset/pretty-yaks-repeat.md
+[NX Daemon Server] - 2024-06-01T09:02:56.925Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:02:56.928Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.3432909999974072ms
+[NX Daemon Server] - 2024-06-01T09:03:11.020Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:03:11.020Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-01T09:03:11.222Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:03:11.222Z - [REQUEST]: package.json,CHANGELOG.md
+[NX Daemon Server] - 2024-06-01T09:03:11.222Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:03:11.225Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.3090420002117753ms
+[NX Daemon Server] - 2024-06-01T09:03:40.933Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-06-01T09:03:40.934Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:03:41.338Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:03:41.338Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-06-01T09:03:41.338Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:03:41.343Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.793082999996841ms
+[NX Daemon Server] - 2024-06-01T09:03:59.135Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-06-01T09:03:59.135Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:03:59.938Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:03:59.938Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-06-01T09:03:59.938Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:03:59.941Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9395409999415278ms
+[NX Daemon Server] - 2024-06-01T09:04:01.961Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-06-01T09:04:01.961Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:04:03.564Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:04:03.564Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-06-01T09:04:03.564Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:04:03.571Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.7890829998068511ms
+[NX Daemon Server] - 2024-06-01T09:04:19.562Z - [WATCHER]: .changeset/strong-islands-count.md was created or restored
+[NX Daemon Server] - 2024-06-01T09:04:19.562Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:04:19.664Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:04:19.664Z - [REQUEST]: .changeset/strong-islands-count.md
+[NX Daemon Server] - 2024-06-01T09:04:19.664Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:04:19.667Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.3153750002384186ms
+[NX Daemon Server] - 2024-06-01T09:05:13.803Z - [WATCHER]: .changeset/thin-tools-scream.md was created or restored
+[NX Daemon Server] - 2024-06-01T09:05:13.803Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:05:13.906Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:05:13.906Z - [REQUEST]: .changeset/thin-tools-scream.md
+[NX Daemon Server] - 2024-06-01T09:05:13.906Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:05:13.910Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.4761250000447035ms
+[NX Daemon Server] - 2024-06-01T09:05:51.232Z - [WATCHER]: .changeset/pretty-yaks-repeat.md was modified
+[NX Daemon Server] - 2024-06-01T09:05:51.232Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:05:51.436Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:05:51.436Z - [REQUEST]: .changeset/pretty-yaks-repeat.md
+[NX Daemon Server] - 2024-06-01T09:05:51.436Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:05:51.443Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.7757089999504387ms
+[NX Daemon Server] - 2024-06-01T09:05:52.692Z - [WATCHER]: .changeset/pretty-yaks-repeat.md was modified
+[NX Daemon Server] - 2024-06-01T09:05:52.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:05:53.095Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:05:53.095Z - [REQUEST]: .changeset/pretty-yaks-repeat.md
+[NX Daemon Server] - 2024-06-01T09:05:53.095Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:05:53.100Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.8353329999372363ms
+[NX Daemon Server] - 2024-06-01T09:05:59.705Z - [WATCHER]: .changeset/pretty-yaks-repeat.md was modified
+[NX Daemon Server] - 2024-06-01T09:05:59.705Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:06:00.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:06:00.507Z - [REQUEST]: .changeset/pretty-yaks-repeat.md
+[NX Daemon Server] - 2024-06-01T09:06:00.507Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:06:00.511Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.49299999978393316ms
+[NX Daemon Server] - 2024-06-01T09:06:10.853Z - [WATCHER]: CHANGELOG.md was modified
+[NX Daemon Server] - 2024-06-01T09:06:10.854Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:06:12.458Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:06:12.458Z - [REQUEST]: CHANGELOG.md
+[NX Daemon Server] - 2024-06-01T09:06:12.458Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:06:12.464Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.8846669998019934ms
+[NX Daemon Server] - 2024-06-01T09:08:15.058Z - [WATCHER]: .changeset/blue-papayas-check.md was created or restored
+[NX Daemon Server] - 2024-06-01T09:08:15.058Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:08:15.162Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:08:15.162Z - [REQUEST]: .changeset/blue-papayas-check.md
+[NX Daemon Server] - 2024-06-01T09:08:15.162Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:08:15.165Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0153330001048744ms
+[NX Daemon Server] - 2024-06-01T09:08:40.885Z - [WATCHER]: .changeset/quiet-bees-change.md was modified
+[NX Daemon Server] - 2024-06-01T09:08:40.886Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:08:41.089Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:08:41.089Z - [REQUEST]: .changeset/quiet-bees-change.md
+[NX Daemon Server] - 2024-06-01T09:08:41.089Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:08:41.095Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.7191249998286366ms
+[NX Daemon Server] - 2024-06-01T09:08:44.409Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-01T09:08:44.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:08:44.810Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:08:44.810Z - [REQUEST]: CHANGELOG.md,package.json
+[NX Daemon Server] - 2024-06-01T09:08:44.810Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:08:44.813Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.3169999998062849ms
+[NX Daemon Server] - 2024-06-01T09:15:04.174Z - [WATCHER]: .changeset/purple-stingrays-marry.md was created or restored
+[NX Daemon Server] - 2024-06-01T09:15:04.174Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:15:04.278Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:15:04.278Z - [REQUEST]: .changeset/purple-stingrays-marry.md
+[NX Daemon Server] - 2024-06-01T09:15:04.278Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:15:04.284Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5622919998131692ms
+[NX Daemon Server] - 2024-06-01T09:15:12.788Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-01T09:15:12.788Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-01T09:15:12.990Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-01T09:15:12.990Z - [REQUEST]: package.json,CHANGELOG.md
+[NX Daemon Server] - 2024-06-01T09:15:12.990Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-01T09:15:12.993Z - Time taken for 'Load Nx Plugin: /Users/sdr/Library/pnpm/global/5/.pnpm/nx@19.1.0/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.24220800027251244ms

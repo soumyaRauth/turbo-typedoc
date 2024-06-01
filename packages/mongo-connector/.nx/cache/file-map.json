@@ -1,0 +1,80 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.1.0",
+  "deps": {
+    "@sdrauth/typedoc-config": "^7.0.0",
+    "mongoose": "^8.4.0",
+    "typedoc-plugin-missing-exports": "^2.2.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".changeset/thin-tools-scream.md",
+        "hash": "4376185738011327460"
+      },
+      {
+        "file": ".changeset/purple-stingrays-marry.md",
+        "hash": "4376185738011327460"
+      },
+      {
+        "file": ".changeset/README.md",
+        "hash": "4888845876018830777"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "12265703513718557465"
+      },
+      {
+        "file": "typedoc.json",
+        "hash": "17159225226583316462"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11042458986030292281"
+      },
+      {
+        "file": "package.json",
+        "hash": "16623438440874484276"
+      },
+      {
+        "file": ".changeset/config.json",
+        "hash": "14333765949508215730"
+      },
+      {
+        "file": ".changeset/quiet-bees-change.md",
+        "hash": "9374741253649631545"
+      },
+      {
+        "file": ".changeset/strong-islands-count.md",
+        "hash": "4376185738011327460"
+      },
+      {
+        "file": "src/index.js",
+        "hash": "7874646749301211986"
+      },
+      {
+        "file": ".changeset/blue-papayas-check.md",
+        "hash": "5889043015462348716"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "785461801174024838"
+      },
+      {
+        "file": "README.md",
+        "hash": "1497239674378147557"
+      },
+      {
+        "file": ".changeset/pretty-yaks-repeat.md",
+        "hash": "4376185738011327460"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "7704134863186977343"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}

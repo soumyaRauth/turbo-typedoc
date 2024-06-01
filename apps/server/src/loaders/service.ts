@@ -1,3 +1,3 @@
-import { Connection } from "mongo-connector";
+import { Connection } from "@sdrauth/mongo-connector";
 
 Connection();
