@@ -9,9 +9,9 @@
  *    npm install @monorepo/mongo-connection
  *    ```
  *
- * 2. Import and call the `mongooseConnection` function in your project's entry file (e.g., `server.js`):
+ * 2. Import and call the `mongooseConnection` function in your project's entry file (e.g., `server.js` inside loader):
  *    ```javascript
- *    import mongooseConnection from '@monorepo/mongo-connection';
+ *    import { Connection } from "@sdrauth/mongo-connector";;
  *
  *    mongooseConnection();
  *    ```
