@@ -7,7 +7,7 @@ const vendorSchema = new mongoose.Schema({
 
 const Vendor = mongoose.model("Vendor", vendorSchema);
 
-const createVendor = async () => {
+const createVendor = async () => { 
   try {
     const newVendor = new Vendor({
       name: "John Doe",
