@@ -6,12 +6,16 @@
     "dev": "turbo dev",
     "document": "typedoc --entryPointStrategy  expand ./apps ./packages",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "pre-commit": "lint-staged --allow-empty",
+    "commit": "npx cz"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.12.12",
+    "commitizen": "^4.3.0",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "turbo": "latest",
     "typedoc": "^0.25.13",
